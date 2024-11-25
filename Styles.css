@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    color: #eee;
+    background-color: #222;
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 22px;
+    padding: 10px;
+
+}
+
+form{
+    background-color: transparent;
+    padding: 20px 0;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0px 0px 35px #fff2;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+.form_input{
+    padding: 6px 20px;
+}
+
+input, textarea, select{
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 6px 8px;
+    border: none;
+    border: 1px solid #666;
+    box-shadow: 0px 0px 15px #0003;
+    background-color: transparent;
+    border-radius: 4px;
+    color: #ddd;
+    
+}
+option{
+background-color: #222;
+
+ }
+
+ textarea{
+    min-width: 100%;
+    resize: vertical; 
+    min-height: 102px;
+    max-height: 200px;
+    font-family: sans-serif;
+}
+
+label{
+    font-size: 0.88em;
+    margin-bottom: 4px;
+    line-height: 2;
+}
+ 
+.checkbox{
+    width:auto;
+    height: 12px;
+    padding: 0 20px;
+    margin: 0px 10px;
+    position: relative;
+    bottom: 25px;
+    left: -70px;
+
+}
+
+fieldset{
+    border-radius: 5px;
+    border: 1px solid #666;
+    padding: 8px 6px 20px 8px;
+    margin: 20px;
+    
+}
+
+legend{
+    padding: 0 6px;
+    color: #666;
+}
+
+a {
+    color: #69f;
+    text-decoration: none;
+    font-size: 1rem;
+}

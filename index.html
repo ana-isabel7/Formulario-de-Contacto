@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textarea</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <form>
+        <h2>Formulario de Contacto</h2>
+        <!--SIMPLE INPUT-->
+        <fieldset>
+            <legend>Información Básica</legend>
+        <div class="form_input">
+            <label for="nombre">Nombre Completo</label>
+            <input type="text" placeholder="Pedro Pérez" id="nombre">
+
+        </div>
+         
+        <div class="form_input">
+            <label for="email">Email</label>
+            <input name="email" placeholder="ejemplo@gmail.com" id="email">
+            </label>
+        </div>
+
+        <div class="form_input">
+            <label for="text">Asunto
+            <input type="text" placeholder="Asunto de tu mensaje" id="Asunto">
+            </label>
+        </div>
+    </fieldset>
+
+        <!--SELECT Y OPTION-->
+        <div class="form_input">
+            <label> Tipo de usuario
+            <select name="type-of-user">
+                <option value="user 1"> Seguidor</option>
+                <option value="user 2"> Empresa</option>
+                <option value="user 3"> Otros</option>
+            </select>
+            </label>
+            </div>
+        </div>
+        <!--DATALIST Y OPTION-->
+        <div class="form_input">
+        <label> Referente
+            <input list="referente">
+            <datalist id="referente" name="referente">
+                <option value="Redes sociales"> </option>
+                <option value="Una empresa"> </option>
+                <option value="Un amigo"> </option>
+            </datalist>
+            </label>
+        </div>
+        <!--TEXTAREA-->
+        <div class="form_input">
+            <label for="mensaje">Mensaje</label>
+            <textarea rows= "6" placeholder="Deja tu mensaje..." id="mensaje"></textarea>
+<!-- el rows es para estipular el numero de lineas que se le dejara escribir al usuario-->
+        </div>
+        <div class="form_input">
+            <label> Acepto <a href="terms.html">términos y condiciones</a><input type="checkbox" class="checkbox"></input>
+        </label>
+        </div>
+    </form>
+    
+</body>
+</html>
+<!--disabled desactiva el textarea-->
+<!--readonly hace que el textarea solo sea para lectura, no se puede modificar-->
+<!--maxlength ="140" por ejemplo. pone el maximo de lo que se puede escribir en el textarea-->
+<!---el for y el id es para enlazar el label con el contenido que se escribe dentro, de la otra forma que se puede hacer es abrir la etiqueta label y poner el input o el textarea dentro-->
